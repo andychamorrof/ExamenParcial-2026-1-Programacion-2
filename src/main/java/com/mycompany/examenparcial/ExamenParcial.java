@@ -1,16 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+MAIN
  */
 
 package com.mycompany.examenparcial;
 
-/**
- *
- * @author andy
- */
-public class ExamenParcial {
+import controlador.Controlador;
 
+public class ExamenParcial {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        new Controlador().iniciar();
     }
 }
